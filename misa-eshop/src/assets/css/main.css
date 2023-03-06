@@ -1,0 +1,60 @@
+/* file css common */
+
+@import url(../css/common/common.css);
+
+/* file css component */
+
+@import url(../css/component/button.css);
+@import url(../css/component/input.css);
+@import url(../css/component/table.css);
+@import url(../css/component/paging-bar.css);
+@import url(../css/component/checkbox.css);
+@import url(../css/component/loading.css);
+@import url(../css/component/dialog.css);
+@import url(../css/component/radio.css);
+@import url(../css/component/popup.css);
+@import url(../css/component/select.css);
+@import url(../css/component/dropdown.css);
+@import url(../css/component/icon.css);
+@import url(../css/component/mcombobox.css);
+@import url(../css/component/toastmsg.css);
+@import url(../css/component/tooltip.css);
+@import url(../css/component/tags.css);
+
+/* file css của layout */
+@import url(../css/layout/navigation.css);
+@import url(../css/layout/header.css);
+@import url(../css/layout/content.css);
+@import url(../css/page/detail.css);
+
+body {
+    font-family: roboto;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: roboto bold;
+    src: url(../content/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto italic;
+    src: url(../content/font/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../content/font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto medium;
+    src: url(../content/font/Roboto-Medium.ttf);
+}

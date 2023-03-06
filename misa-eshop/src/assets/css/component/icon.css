@@ -1,0 +1,87 @@
+.m-icon {
+    background-image: url(../../content/img/common-icon.png);
+    background-repeat: no-repeat;
+}
+
+.m-icon-16{
+    height: 16px;
+    width: 16px;
+}
+
+.m-icon-24{
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 22px;
+    width: 22px;
+    background-color: #fff;
+    border: 1px solid #6b6f9d;
+    padding: 0;
+    margin-left: 2.5px;
+    cursor: pointer;
+}
+
+.m-icon-24:hover{
+    box-shadow: 0 0 1px #2b3173; 
+}
+
+.m-icon-refresh-24{
+    background-position: -849px -124px;
+}
+
+.m-icon-first{
+    background-position: -649px -124px;
+}
+.m-icon-prev{
+    background-position: -700px -124px;
+}
+.m-icon-next{
+    background-position: -749px -124px;
+}
+.m-icon-end{
+    background-position: -798px -124px;
+}
+
+.m-add-icon{
+    background-position: -1px -127px;
+}
+
+.m-clone-icon{
+    background-position: -976px -127px;
+}
+
+.m-update-icon{
+    background-position: -77px -203px;
+}
+.m-delete-icon{
+    background-position: -1076px -127px;
+}
+.m-refresh-icon{
+    background-position: -876px -127px;
+}
+
+.m-icon-save{
+    background-position: -327px -127px;
+}
+
+.m-icon-cancel{
+    background-position: -252px -127px;
+}
+
+.m-icon-selectimg{
+    background-position: -76px -178px;
+    padding: 0 7px;
+}
+
+.m-icon-question{
+    background-position: -177px -177px;
+    padding-left: 2px;
+}
+
+.m-close-popup{
+    background-position: -1102px -153px;
+    cursor: pointer;
+}
+
+

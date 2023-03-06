@@ -1,0 +1,99 @@
+/* css phần content */
+
+.m-content {
+    height: calc(100vh - 52px);
+    width: calc(100% - 160px);
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+
+/* action content */
+.m-content-action{
+    width: 100wh;
+    height: 36px;
+    background-color: #2b3173;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.m-content-action>div{
+    border-right: 1px solid #bbb;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    border-left-color: #190472;
+    border-right-color: #190472;
+    cursor: pointer;
+}
+
+.m-content-action>div .m-icon{
+    padding-right: 10px;
+}
+
+.m-content-action>div:hover{
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+
+/* grid content */
+.m-content-grid{
+    width: 100%;
+    height: calc(100vh - 92px);
+    background-color: #fff;
+    overflow-x: auto;
+    position: relative;
+}
+
+.m-table thead .m-checkbox-input{
+    margin-left: 9px;
+    
+}
+
+.m-input-thead{
+    height: 34px;
+    background-color: #ffffff;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+.m-disable{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.m-disable-input{
+    pointer-events: none;
+    background-color: #e5e6eb;
+    border: 1px solid #babec5;
+}
+
+.m-tr-action{
+    color: #636dde;
+    cursor: pointer;
+}
+
+.m-tr-action:hover{
+    text-decoration: underline;
+}
+
+.row-active{
+    background-color: #e2e4f1 !important;
+}
+
+
+
+
+
+
+

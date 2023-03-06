@@ -1,0 +1,50 @@
+/* input */
+
+.m-input {
+    padding: 0 12px 0 10px;
+    height: 24px;
+    padding-left: 10px;
+    color: inherit;
+    box-sizing: border-box;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    outline: none;
+    color: inherit;
+    width: 100%;
+}
+
+.m-input::placeholder {
+    font-family: roboto italic;
+}
+
+.m-input:hover {
+    box-shadow: 0 0 1px #2b3173;
+}
+
+.m-input:focus {
+    border-color: #2b3173;
+}
+
+.icon-input {
+    position: absolute;
+    top: 8px;
+    right: 10.75px;
+    width: 16px;
+    height: 16px;
+    padding-right: 3px;
+}
+
+
+/* thông báo dữ liệu null */
+
+.input-warning {
+    border-color: red !important;
+}
+
+.input-date-custom{
+    font-family: roboto;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}

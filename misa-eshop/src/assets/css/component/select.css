@@ -1,0 +1,13 @@
+.m-selected {
+    height: 33px;
+    width: 150px;
+    border-color: #BBBBBB;
+    border-width: 1px;
+    border-style: solid;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 100px;
+    padding: 0 12px;
+    outline: unset;
+}

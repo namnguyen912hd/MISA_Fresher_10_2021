@@ -1,0 +1,57 @@
+/* button màu xanh */
+
+.m-btn {
+    font-family: roboto;
+    height: 35px;
+    background-color: #2b3173;
+    color: #ffffff;
+    padding: 6px 16px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.m-btn:focus {
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+.m-btn-context{
+    width: 51px;
+    height: 34px;
+    background-color: #ffffff;
+    color: #0000008e;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+.m-btn-save{    
+    border: none;
+    font-family: roboto bold;
+    width: 65.45px;
+}
+
+.m-btn-cancel:hover{
+    border: 1px solid #2b3173;
+
+}
+
+.m-btn-quickadd{
+    border-radius: 0;
+    padding: 0;
+    width: 24px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 0 3px 3px 0;
+    background-color: #f5f5f5;
+    border-left: none;
+}
+
+
+
+

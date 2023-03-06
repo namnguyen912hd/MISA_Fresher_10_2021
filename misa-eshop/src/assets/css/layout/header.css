@@ -1,0 +1,120 @@
+/* css phần header của trang */
+
+.m-header {
+    height: 52px;
+    width: calc(100% - 160px);
+    align-items: center;
+    display: flex;
+    float: left;
+    background-color: #ffffff;
+}
+
+
+/* phần trái header */
+
+.m-header .m-header-left {
+    display: flex;
+    flex: 1;
+    font-size: 18px!important;
+    font-weight: 700;
+    color: #212121;
+    font-weight: 700;
+    font-family: roboto;
+    padding-left: 21px;
+}
+
+/* Phần header bên phải */
+
+.m-header .m-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.m-header .m-header-right .m-header-back{
+    color: #636dde;
+    border-right: 1px solid #9e9e9e;
+    cursor: pointer;
+    margin-right: 16px; 
+    padding-right: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.m-icon-back{
+    background: url(../../content/img/back.png) no-repeat;
+    width: 11px;
+    height: 8px;
+    padding-right: 16px;
+}
+
+.m-header-account{
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+}
+    .m-account-avatar{
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        padding-right: 8px;
+        background-image: url(../../content/img/avatar.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .m-account-name{
+        font-weight: 700;
+        margin-right: 8px;
+    }
+
+.m-header-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .m-icon-call{
+        width: 46px;
+        height: 52px;
+        background-image: url(../../content/img/call1.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+} */
+
+.m-bell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 42px;
+    height: 52px;
+    border-right: 1px solid #bbbbbbd8;
+    border-left: 1px solid #bbbbbb38;
+}
+
+.m-icon-bell {
+    margin: 0 auto;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../content/img/notify-18.png);
+}
+
+.m-help{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 42px;
+    height: 52px;
+}
+
+.m-icon-help{
+    margin: 0 auto;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../content/img/icon_help_18.png);
+}
+
+
+
+

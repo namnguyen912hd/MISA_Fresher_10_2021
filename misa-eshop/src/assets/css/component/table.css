@@ -1,0 +1,133 @@
+.m-table{
+    border-spacing: unset;
+    border: unset;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.m-table .m-text-left > tr > th{
+    text-align: left;
+}
+
+.m-table tr{
+    height: 35.2px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.m-table tbody tr:hover{
+    background-color: #d1f1ff34 !important;
+}
+
+.m-table td, th{
+    padding: 0 1px;
+}
+
+.m-table tbody td {
+    padding: 0 10px !important;
+    text-align: left;
+    border: 1px solid #ddd !important;
+}
+
+.m-table tbody tr:nth-child(2n){
+    background-color: #f6f6f6 ;
+}
+
+.m-table tbody .m-text-right{
+    text-align: right;
+}
+
+.m-table tbody .m-text-center{
+    text-align: center;
+}
+
+.m-table thead th { 
+    position: sticky;
+    top: 0; 
+    z-index: 1; 
+    background-color: #f6f6f6;
+    border-right: 1px solid #ddd;
+}
+
+.m-table thead th:hover{
+    background-color: #e2e4f1;
+}
+
+.m-table tbody th { 
+    position: sticky;
+     left: 0; 
+}
+
+.m-thead-content{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.m-thead-name{
+    width: 100wh;
+    padding: 7px 10px 9px;
+    text-align: center;
+}
+
+.m-thead-action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.m-thead-action .v-select{
+    background-color: #fff;
+    height: 34px;
+    border-bottom: none;
+}
+
+.m-thead-action .vs__selected-options{
+    padding-left: 7px;
+}
+
+.m-thead-action .vs__selected{
+    padding-left: 0;
+    margin-left: 0;
+    font-weight: 100;
+}
+
+.m-cbx-show .vs__selected-options{
+    width: 150px;
+}
+
+.m-cbx-cate .vs__selected-options{
+    width: 80px ;
+}
+.m-cbx-cate .vs__dropdown-menu{
+    width: 105px;
+    min-width: 105px;
+}
+
+.m-cbx-manage .vs__selected-options{
+    width: 76px;
+}
+
+.m-cbx-manage .vs__dropdown-menu{
+    width: 100px;
+    min-width: 100px;
+}
+
+.m-cbx-state .vs__dropdown-menu{
+    width: 148px;
+    min-width: 148px;
+}
+
+.m-cbx-state .vs__selected-options{
+    width: 125px;
+}
+
+
+
+
+
+
+

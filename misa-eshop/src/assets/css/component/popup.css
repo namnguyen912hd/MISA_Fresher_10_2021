@@ -1,0 +1,104 @@
+.m-popup-box {
+    display: none;
+}
+.m-popup {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 250000;
+    width: 400px;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 3px;
+}
+
+.m-popup .m-popup-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    height: 19px;
+    align-items: center;
+    font: 600 16px Roboto!important;
+    color: #212121;
+    font-weight: bold;
+}
+
+.m-popup-content{
+    width: 376px;
+    height: 44px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-popup-icon{
+    width: 44px;
+    height: 44px;
+    background-image: url(../../content/img/icon-popup.png);
+    background-repeat: no-repeat;
+}
+.m-icon-warning{
+    background-position: -165px -2px;
+}
+
+.m-icon-danger{
+    background-position: -56px -2px;
+}
+
+.m-messenger {
+    font-size: 13px;
+    width: 325px;
+
+}
+
+.m-mess-line {
+    height: 1px;
+    background: #b8bcc3;
+    margin-bottom: 2px;
+}
+
+.m-popup-bottom{
+
+    padding: 3px 10px;
+}
+
+
+.m-popup-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2400;
+}
+
+.m-popup-show {
+    display: block;
+}
+
+
+
+.m-flex{
+    display: flex;
+}
+
+.m-flex-between{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.m-flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.m-btn-delete{
+    color: #ffffff;
+    background-color: #df4646;
+    margin-right: 4px;
+}
+.m-btn-delete i{
+    margin-right: 4px;
+}

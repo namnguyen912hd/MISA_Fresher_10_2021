@@ -1,0 +1,56 @@
+.m-modal {
+  position: absolute;
+  top: 97px;
+  right: 10px;
+  left: 170px;
+  bottom: 61px;
+  background-color: #111111;
+  opacity: 0.5;
+  z-index: 1400;
+}
+
+.m-content-area:focus {
+  border-color: #2b3173 !important;
+  outline: none !important;
+}
+.m-text-right {
+  text-align: right;
+}
+
+.m-text-left {
+  text-align: left;
+}
+
+.m-text-center {
+  text-align: center;
+}
+
+[data-title] {
+  position: relative;
+  cursor: help;
+}
+
+
+
+[data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: -26px;
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 2px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  white-space: nowrap;
+}
+[data-title]:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 8px;
+  display: inline-block;
+  color: #fff;
+  border: 8px solid transparent;
+  border-bottom: 8px solid #000;
+}

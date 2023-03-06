@@ -1,0 +1,82 @@
+/* pagination content */
+.m-content-pagination{
+    box-sizing: border-box;
+    border-top: 1px solid #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+}
+
+.m-pagination-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.m-pagination-right{
+    margin-right: 10px;
+}
+
+.m-input-pagesize{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 10px;
+}
+
+.m-input-pagesize input{
+    height: 26px;
+    margin: 0 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.m-pagesize-container{
+    margin-left: 6px;
+}
+
+.m-select-pagesize{  
+    width: 45px;
+    height: 25px;
+    border: 1px solid #babec5;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.m-display-pagesize{
+    display: flex;
+    padding-left: 5px;
+    cursor: pointer;
+    width: 45px;
+}
+
+.m-display-pagesize i{
+    margin-left:6px;
+}
+
+.m-option-pagesize{
+    width: 51px;
+    min-height: 4.8em;
+    display: block;
+    bottom: 29px;
+    position: absolute;
+    box-shadow: 0 0 1px #2b3173; 
+}
+.m-option-pagesize .m-option{
+    background-color: #fff;
+    padding-left: 4px;
+}
+
+.m-option-pagesize .m-option:hover{
+    border-top: 1px solid rgba(187, 187, 187, 0.705);
+    border-bottom: 1px solid rgba(187, 187, 187, 0.705);
+    background-color: #757575;
+    color: #fff;
+    font-weight: 500;
+}

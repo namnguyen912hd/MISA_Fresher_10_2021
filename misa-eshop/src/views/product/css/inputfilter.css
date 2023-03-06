@@ -1,0 +1,61 @@
+table .m-filter {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4px;
+  padding-left: 1px;
+  padding-right: .5;
+  width: 100%;
+}
+table .m-filter .vs__actions{
+    display: none;
+}
+
+table tbody tr:first-child {
+    border-top: 1px solid red ;
+  }
+
+.m-filter .vs--single .vs__selected{
+    margin-top: 7px;
+    margin-left: 2px;
+    color: #000;
+    font-weight: 100;
+}
+
+.m-cbb-filter span {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.m-filter .m-input {
+  width: 100%;
+  border-left: none;
+}
+#thProductName .m-filter .m-input{
+    width: 132%;
+}
+.m-modal-col-6 .vs__dropdown-menu{
+    margin-top: 10px !important;
+}
+
+.m-modal-col-6 {
+  width: 30% !important;
+  border: none;
+}
+.m-modal-col-3 {
+  width: 30% !important;
+}
+.m-modal-col-9 {
+  width: 70% !important;
+}
+.m-modal-col-2 {
+  width: 14.7% !important;
+}
+.m-modal-col-10 {
+  width: 86.3% !important;
+}

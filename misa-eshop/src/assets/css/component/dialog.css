@@ -1,0 +1,241 @@
+/* css dialog */
+
+.m-dialog {
+    display: none;
+}
+
+
+/* Phần header =============================================*/
+
+.dialog {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1500;
+    width: 900px;
+    top: calc(50% - 301px);
+    left: calc(50% - 450px);
+    border-radius: 2px;
+}
+
+.dialog .dialog-header {
+    display: flex;
+}
+
+.dialog .dialog-header .dialog-title {
+    display: flex;
+    padding: 20px 12px 20px 32px;
+    align-items: center;
+    flex: 1;
+}
+
+.dialog-title .text-title {
+    font-size: 24px;
+    font-family: notosans bold;
+}
+
+.dialog-title span {
+    display: flex;
+    align-items: center;
+    padding: 0 19.5px;
+}
+
+.dialog-title span .checkbox-content {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.dialog .dialog-header .dialog-close {
+    display: flex;
+    width: 54px;
+    height: 49px;
+    padding: 12px;
+}
+
+.dialog-close .icon-help {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.dialog-close .icon-close {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+/* Phần nội dung của dialog  =============================================*/
+
+.dialog-content {
+    padding: 0 32px 0 32px;
+}
+
+.dialog-content .text-input {
+    font-size: 12px;
+    font-family: notosans bold;
+    padding-bottom: 4px;
+}
+
+.dialog-content .top-content {
+    display: flex;
+    width: 100%;
+}
+
+
+/* content left */
+
+.content-left .text-input span {
+    color: red;
+}
+
+.dialog-content .top-content .content-left {
+    width: 418px;
+    padding-right: 26px;
+}
+
+.content-left .input-id-name {
+    display: flex;
+}
+
+.input-id-name .input-id {
+    width: 150.8px;
+    padding-right: 6px;
+}
+
+.input-id-name .input-name {
+    width: calc(100% - 156.8px);
+}
+
+
+/* content right */
+
+.dialog-content .top-content .content-right {
+    width: 418px;
+}
+
+.content-right .input-date-gender {
+    display: flex;
+}
+
+.content-right .input-date-gender .input-date {
+    width: 161.19px;
+    padding-right: 6px;
+}
+
+.content-right .input-date-gender .input-gender {
+    width: calc(100% - 167.19px);
+}
+
+.input-gender .list-gender {
+    height: 18px;
+    display: flex;
+    padding: 5px 0 6px 10px;
+    /* align-items: center; */
+}
+
+.list-gender .label-gender {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.input-identify-date {
+    display: flex;
+}
+
+.input-identify-date .input-identify {
+    width: 244.8px;
+    padding-right: 6px;
+}
+
+.input-identify-date .input-identify .input-date-range {
+    width: calc(100% - 250.8px);
+}
+
+.top-content .content-left>div,
+.top-content .content-right>div {
+    padding-bottom: 12px;
+}
+
+
+/* phần bottom content */
+
+.content-bottom {
+    padding-top: 32px;
+}
+
+.content-bottom>div {
+    padding-bottom: 12px;
+}
+
+.content-bottom>div:not(:first-child) {
+    display: flex;
+}
+
+.content-bottom .within-content-bot>div {
+    padding-right: 6px;
+    width: 197px;
+}
+
+
+/* Dấu gạch ngang phân cách content và bottom dialog */
+
+.divide {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    margin: 32px 0 20px;
+    position: relative;
+}
+
+
+/* phần bottom dialog  =============================================*/
+
+.dialog-bottom {
+    position: relative;
+    height: 34px;
+    padding: 0 32px 20px 32px;
+}
+
+.dialog-bottom,
+.dialog-bottom>div {
+    display: flex;
+}
+
+.dialog-bottom .dialog-bot-right {
+    position: absolute;
+    right: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dialog-bottom .dialog-bot-right>div {
+    padding-left: 9.75px;
+}
+
+
+.modal-show {
+    display: block;
+  }
+
+.m-form-error {
+    border: 1px solid red !important;
+    width: 239px !important;
+}
+
+/* css datepicker */
+
+.vdp-datepicker__calendar .cell.selected {
+    background: #2ca01c !important;
+    color: #ffffff;
+    border: 1px solid #2ca01c !important;
+    border-radius: 50% !important;
+}
+
+.cell{
+    background: #ffffff !important;
+}
+.cell:hover{
+    background: #ffffff !important;
+    border: 1px solid #2ca01c !important;
+    border-radius: 50% !important;
+}

@@ -1,0 +1,232 @@
+.m-content-detail{
+    z-index: 3000;
+}
+
+.m-detail-action{
+    height: 51px;
+    background-color: #fff;
+}
+
+.m-detail-info{
+    height: calc(100vh - 102px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.m-detail-action .m-btn{
+    margin-left: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #2b3173;
+}
+
+.m-detail-action .m-btn:hover{
+    background-color: #2b31739c;
+}
+
+.m-detail-action .m-btn:focus{
+    background-color: #2b31739c;
+}
+
+.m-btn-cancel{
+    border: none !important;
+    font-family: roboto bold;
+    background-color: #ffffff !important;
+    width: 90px;
+    color: #2b3173;
+    
+
+}
+
+.m-btn-cancel:hover{
+    box-sizing: border-box;
+    border: 1px solid #2b3173 !important;
+    background-color: #fff !important;
+}
+
+.m-btn-cancel:focus{
+    border: 1px solid #2b3173 !important;
+    background-color: #fff !important;
+}
+
+.m-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+
+.m-info-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.m-info-name{
+    min-width: 135px;
+    width: 135px;
+}
+
+.m-info-content{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.m-info-item .m-input{
+    height: 35px;
+    width: 263px;
+}
+
+.m-icon-exclam{
+    background-image: url(../../content/img/exclamation.png);
+    background-repeat: no-repeat;
+    margin-left: 2px;
+    
+}
+
+.m-info-item .m-input-price{
+    width: 180px;
+}
+
+.m-info-color{
+    width: 137px;
+    height: 35px;
+    background-color:#f0f0f0 ;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #babec5;
+    border-right: none;
+}
+
+
+
+
+.m-title{
+    font: 600 15px Roboto!important;
+    color: #757575;
+    text-transform: uppercase;
+    padding: 4px 0;
+    padding: 20px 0;
+}
+
+/* css property */
+
+.m-property-container{
+    width: calc(100% - 2px);
+    height: 200px;
+    border: 1px solid #babec5;
+    overflow: auto;
+}
+
+.m-property-container .m-table{
+    width: 100%;
+}
+
+.m-property-container .m-table thead tr th{
+    text-align: center;
+}
+.m-property-container .m-table tbody tr:nth-child(2n) input{
+    background-color: #f6f6f6 ;
+}
+
+.m-property-container .m-table tbody tr:hover input{
+    background-color: #e2e4f1 !important;
+}
+
+.m-property-container .m-table tbody tr td .m-input:hover{
+    border: none !important ;
+}
+
+.m-property-container .m-table tbody tr input:focus{
+    background-color: white !important;
+}
+
+.m-property-container .m-table td{
+    padding: 0 !important;
+}
+
+.m-property-container .m-table td input{
+    width: 100%;
+    border: none;
+}
+
+
+/* css image */
+.m-img-container{
+    margin-right: 10px;
+    width:202px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: #636dde!important;
+    border-width: 1px!important;
+    border-style: dashed;
+    box-sizing: border-box;
+}
+.m-img-symbol{
+    margin-left: 99px;
+    display: flex;
+    font-family: roboto bold;
+    justify-content: flex-end;
+    color: #b3b3b3;
+    padding: 3px;
+    border: 1px solid #b3b3b34b;
+    border-top: none;
+    border-right: none;
+}
+
+.m-img{
+    width: 180px;
+    height: 200px;
+    background-image: url(../../content/img/Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.m-bg-image{
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 12px;
+    height: 12px;
+    background-image: url(../../content/img/quick-add.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.m-input-file{
+    height: 22px;
+    text-align: center;
+}
+
+.m-input-file label{
+    padding: 3px 13px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40px;
+    height: 24px;
+    background-color: #2b3173;
+    color: #fff;
+}
+
+.m-input-file input[type='file']{
+    opacity: 0;
+}
+
+.m-info-content .v-select{
+    height: 35px;
+    width: 239px;
+}
+
+
+
+
+
+
